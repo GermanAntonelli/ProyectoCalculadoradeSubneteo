@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CalculadoraDeSubneteo</string>
+    <string name="btniniciar">Iniciar</string>
+    <string name="btnayuda">Ayuda</string>
+    <string name="txt_v_address">Address:_______________________</string>
+    <string name="txt_v_netmask">Netmask:_______________________</string>
+    <string name="txt_V_type_of_netmask">Type of netmask:________________</string>
+    <string name="txt_v_network">Network:________________________</string>
+    <string name="txt_v_broadcast">Broadcast:______________________</string>
+    <string name="txt_v_host_min">Host Min:_______________________</string>
+    <string name="txt_v_host_max">Host Max:_______________________</string>
+    <string name="txt_v_hostnet">Host/Net:________________________</string>
+</resources>

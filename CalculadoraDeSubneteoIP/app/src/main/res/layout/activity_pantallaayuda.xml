@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantallaayuda">
+
+    <TextView
+        android:id="@+id/textView_ayuda"
+        android:layout_width="160dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/btnayuda"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="55sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_informacion"
+        android:layout_width="299dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="Descripción de la App:     Calcuyladora de subneteo tomara lo que es la direccion IP  y una mascara de red, que esta en la pequeña seccion asignada a la par resultante, la red, el host, a la vez de ayudar al momento de subnetear redes pues es una herramienta con la cual se pretende enseñar la manera en la cual se realiza el subneteo."
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ayuda" />
+
+    <TextView
+        android:id="@+id/textView_infor_2"
+        android:layout_width="306dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="El usuario ingresa IP() la mascara debe de estar en notacion CIDR(1-30) esta es ek estandar de red para interpretacion de direcciones IP,  la clase de la red estara determinada por el primero octeto generado  "
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.609"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_informacion" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gc" />
+</androidx.constraintlayout.widget.ConstraintLayout>
